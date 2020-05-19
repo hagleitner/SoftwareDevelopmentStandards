@@ -1,6 +1,6 @@
 # Type design guidelines
 ## Choosing between class and struct
-As a rule of thumb, the majority of types in a framework should be classes. There are, however, some situations in which the characteristics of a value type make it more appropriate to use structs.
+As a rule of thumb, the majority of types in a framework should be classes. There are, however, some situations in which the characteristics of a value type makes it more appropriate to use structs.
 
 Consider defining a struct instead of a class if instances of the type are small and commonly short-lived or are commonly embedded in other objects.
 
