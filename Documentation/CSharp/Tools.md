@@ -1,3 +1,10 @@
+---
+layout: default
+title: Tools
+parent: CSharp
+nav_order: 60
+---
+
 # Tools
 Where possible we enforce our coding guidelines with software tools. These tools give the developers immediate feedback on the conformity of written code with the coding guidelines and provide Hagleitner a way to assess the quality of code in an automated way (e.g. in a build pipeline).
 

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Jira
+nav_order: 30
+permalink: Documentation/Jira
+---
+
 # Jira
 We use Jira as our central issue management tool.
 

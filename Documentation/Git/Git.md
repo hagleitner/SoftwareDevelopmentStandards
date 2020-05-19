@@ -1,3 +1,10 @@
+---
+layout: default
+title: Git
+nav_order: 20
+permalink: Documentation/Git
+---
+
 # Git
 We use Git as version control system.
 

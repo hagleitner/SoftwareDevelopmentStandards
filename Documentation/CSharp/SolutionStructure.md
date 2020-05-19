@@ -1,4 +1,11 @@
-﻿# Solution Structure
+﻿---
+layout: default
+title: Solution Structure
+parent: CSharp
+nav_order: 35
+---
+
+# Solution Structure
 
 ## Solution Structure and Filesystem
 The solution structure and (projects, project folders) must match the structure and naming on the filesystem.

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Code comments
+parent: CSharp
+nav_order: 40
+---
+
 # Code comments
 
 Note: We intentionally differentiate between [code documentation](Documentation) and code comments.

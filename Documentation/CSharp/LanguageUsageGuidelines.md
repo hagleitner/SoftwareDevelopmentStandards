@@ -1,3 +1,10 @@
+---
+layout: default
+title: C# Lanugage usage guidelines
+parent: CSharp
+nav_order: 20
+---
+
 # C# Lanugage usage guidelines
 
 ## Using implicitly typed variables (var)

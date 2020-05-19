@@ -1,3 +1,10 @@
+---
+layout: default
+title: Type design guidelines
+parent: CSharp
+nav_order: 30
+---
+
 # Type design guidelines
 ## Choosing between class and struct
 As a rule of thumb, the majority of types in a framework should be classes. There are, however, some situations in which the characteristics of a value type makes it more appropriate to use structs.

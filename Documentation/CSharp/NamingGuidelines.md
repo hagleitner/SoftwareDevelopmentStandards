@@ -1,4 +1,11 @@
-﻿# Naming Guidelines
+﻿---
+layout: default
+title: Naming Guidelines
+parent: CSharp
+nav_order: 10
+---
+
+# Naming Guidelines
 
 > Code is made up of three things: names, spacing and punctuation. With these three tools a programmer needs to communicate intent, and not simply instruct. A good name is more than a label; a good name should change the way the reader thinks. Good naming is part of good design. (Kevlin Henney, Giving Code a Good Name, Dot Net South West in July, 2017).
 
