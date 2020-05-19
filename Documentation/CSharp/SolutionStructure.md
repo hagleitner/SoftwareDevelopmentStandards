@@ -1,7 +1,7 @@
 ﻿# Solution Structure
 
 ## Solution Structure and Filesystem
-The solution structure and (Projects, Project Folders) must match the structure and naming on the filesystem.
+The solution structure and (projects, project folders) must match the structure and naming on the filesystem.
 
 #### Project Naming
 

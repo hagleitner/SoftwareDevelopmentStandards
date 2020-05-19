@@ -46,7 +46,7 @@ The following template specifies the general rule for naming namespaces:
 Following rules apply:
 https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/names-of-namespaces
 
-Namespaces and Solution Structure must match. While not every solution folder must imply a separate sub-namespace it must not be that items belonging to the same namespace are distributed to different project folders.
+Namespaces and solution structure must match. While not every solution folder must imply a separate sub-namespace it must not be that items belonging to the same namespace are distributed to different project folders.
 
 ### Classs, Structs
 Use nouns or noun phrases for class names.

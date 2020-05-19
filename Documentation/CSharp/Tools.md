@@ -13,10 +13,9 @@ This package installs following
 * User dictionary
 
 ## Visual Studio Analyzers
-### StyleCop Analyzers
-https://github.com/DotNetAnalyzers/StyleCopAnalyzers
-### FxCop Analyzers
-https://docs.microsoft.com/en-us/visualstudio/code-quality/install-fxcop-analyzers?view=vs-2019
+[StyleCop Analyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers)
+[FxCop Analyzers](https://docs.microsoft.com/en-us/visualstudio/code-quality/install-fxcop-analyzers?view=vs-2019)
+
 ## Code coverage
 **
 ## Visual Studio Spell Checker
