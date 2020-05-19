@@ -18,8 +18,8 @@ While the official company language is German we use English (US) as default lau
 
 ## Table of contents
 
-1. [C#/.NET](CSharp/_index.md)
-1. [Version control with Git](Git.md)
+1. [C#/.NET](CSharp/CSharp.md)
+1. [Version control with Git](Git/Git.md)
 1. [Issue management with Jira](Jira/Jira.md)
 
 

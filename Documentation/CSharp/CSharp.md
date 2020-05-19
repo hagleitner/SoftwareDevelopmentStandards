@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Hagleitner C# Coding Standards
+title: CSharp
 nav_order: 10
 has_children: true
-permalink: Documentation/CSharp
+permalink: /Documentation/CSharp
 ---
 
 # Hagleitner C# Coding Standards

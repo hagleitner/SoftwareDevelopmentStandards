@@ -2,7 +2,7 @@
 layout: default
 title: Git
 nav_order: 20
-permalink: Documentation/Git
+permalink: /Documentation/Git
 ---
 
 # Git
