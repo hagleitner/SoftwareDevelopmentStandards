@@ -43,7 +43,7 @@ Abbreviations are dangerous because they can easily lead to confusion and can hi
   * `public class IO` not `public class Io`
 
 ## Assemblies
-https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/names-of-assemblies-and-dlls
+[Names of assemblies and dlls](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/names-of-assemblies-and-dlls)
 
 ## Namespaces
 The following template specifies the general rule for naming namespaces:
@@ -51,11 +51,11 @@ The following template specifies the general rule for naming namespaces:
 `Hsm.(<Product>|<Technology>)[.<Feature>][.<Subnamespace>]`
 
 Following rules apply:
-https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/names-of-namespaces
+[Names of namespaces](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/names-of-namespaces)
 
 Namespaces and solution structure must match. While not every solution folder must imply a separate sub-namespace it must not be that items belonging to the same namespace are distributed to different project folders.
 
-### Classs, Structs
+### Classes, Structs
 Use nouns or noun phrases for class names.
 Avoid names and suffixes like Utils, Shared, Common, General. Rather search for descriptive names. 
 
