@@ -1,1 +1,1 @@
-# docs.hagleitner.com-SoftwareDevelopmentStandards
+# docs.hagleitner.com/SoftwareDevelopmentStandards
