@@ -15,9 +15,14 @@ Good naming makes code readable and understandable and therefore maintainable. W
 Camel case: `systemEnvironment` [Definition on Wikipedia](https://en.wikipedia.org/wiki/Camel_case)\
 Pascal Case: `SysxtemEnvironment` [Definition on Wikipedia](https://en.wikipedia.org/wiki/Camel_case)
 
-* Pascal: Namespace, Type, Interface, Method, Property, Event, Field, Enum value
+* Pascal: Assemblies, Namespace, Type, Interface, Method, Property, Event, Field, Enum value, Nuget Package-Ids
 * Camel: private Field, parameter, variables
 * Uppercase: never. Except for 2 letter abbreviations
+
+So even: 
+* IoT is written as Iot
+* HsM is written as Hsm
+* ASCII is writen as Ascii
 
 ### Case Sensitivity
 Even if C# supports case sensitivity, other languages that might access your framework do not. Any APIs that are externally accessible, therefore cannot rely on case alone to distinguish between two names in the same context.
