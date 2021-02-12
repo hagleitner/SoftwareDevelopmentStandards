@@ -8,6 +8,13 @@ permalink: /Documentation/Git
 # Git
 We use Git as version control system.
 
+## Git Repository naming
+We do not use spaces in Git Repository names. Instead we use dashes to separate words and Pascal Casing is allowed within words.
+e.g.:
+- HsM-Software-Development-Standards
+- HsM-CatalogService
+- HsM-DigitalTwinService
+
 ## Dividing Repositories
 
 ### One repository per release product
