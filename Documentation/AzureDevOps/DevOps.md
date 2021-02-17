@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Code comments
+title: Azure DevOps
 nav_order: 40
 has_children: true
 permalink: /documentation/azure-devops
