@@ -35,5 +35,29 @@ Commit early and commit often. Write useful commit messages. First line shall be
 * Empty your stash
 
 ## Workflow
-* We use the GitFlow Workflow for all our projects (https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+### Gitflow
+We use the GitFlow Workflow for most of our projects (https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+
+#### Branch names (mind capitalization):
+* develop
+* master
+* feature \<Jira-issue-number\>_\<issue-name-with-dashes\>
+* release/\<releasename>: 
+* bug-fix/\<Jira-issue-number>_<issue-name-with-dashes>
+* hotfix/v\<2.1.2\> (semantic version)
+
+#### Releases and hotfixes
+* Release Branches are branched from develop, version push happens on release branch
+* Once release work is finished be merge to master and we tag the release
+* We create a hotfix branches from master whenever we need hotfixes on an existing release (we branch from the release-tagged commit)
+
+#### Feature-branching
 * We may use Feature Branch Workflow for smaller projects (https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
+  
+Branch names (mind capitalization)
+* master
+* feature/<Jira-issue-number>_<issue-name-with-dashes>
+* bug-fix/<Jira-issue-number>_<issue-name-with-dashes>
+
+Tagging:
+* We create tags on master branch commits for every release
