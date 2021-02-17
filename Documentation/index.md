@@ -1,11 +1,11 @@
 ﻿---
 layout: default
-title: Hagleitner Coding Standards
+title: HsM Software Development Standards
 nav_order: 1
 permalink: /
 ---
 
-# Hagleitner Coding Standards
+# HsM Software Development Standards
 
 ## Introduction
 As we write more and more code within our company we transfer more and more business logic and knowledge to
