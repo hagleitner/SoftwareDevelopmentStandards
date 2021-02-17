@@ -84,9 +84,9 @@ Avoid names and suffixes like Utils, Shared, Common, General, Library. These nam
 ### Test projects
 #### Test project naming
 Test projects are named like the project under test with following suffixes:
-* `<ProjectUnderTest>.UnitTests` for Unit test projects
-* `<ProjectUnderTest>.PerformanceTests` for performance tests (unit or integration)
-* `<ProjectUnderTest>.IntegrationTests` for integration tests
+* `<ProjectUnderTest>.Tests.Unit` for Unit test projects
+* `<ProjectUnderTest>.Tests.Performance` for performance tests (unit or integration)
+* `<ProjectUnderTest>.Tests.Integration` for integration tests
 
 #### Naming test classes
 `<name of the tested class>Test`  -- mind singular here
