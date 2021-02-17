@@ -6,4 +6,4 @@ has_children: true
 permalink: /documentation/csharp
 ---
 
-# Hagleitner C# Coding Standards
+# C# Coding Standards
