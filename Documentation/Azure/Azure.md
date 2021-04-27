@@ -10,10 +10,10 @@ permalink: /documentation/azure
 
 ## Naming conventsion
 ### Resource groups
-rg-\<workload/Application\>-\<environment\>
+rg-hsm\<workload/Application\>-\<environment\>
 
 ### Resources
-\<resorucetype\>-\<4-letter-abbreviation workload/Application\>-\<environment\>
+\<resorucetype\>-hsm-\<4-letter-abbreviation workload/Application\>-\<environment\>
 
 
 
