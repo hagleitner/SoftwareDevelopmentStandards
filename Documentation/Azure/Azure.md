@@ -8,7 +8,7 @@ permalink: /documentation/azure
 
 # Azure DevOps
 
-## Naming conventsion
+## Naming conventions
 ### Resource groups
 rg-hsm\<workload/Application\>-\<environment\>
 
