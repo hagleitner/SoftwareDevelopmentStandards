@@ -7,6 +7,12 @@ permalink: /documentation/azure-devops
 ---
 
 # Azure DevOps
+We use Azure Devops for version control and build pipelines. All projects are hoste din the hagleitner-dev organization.
 
-## Reopository Naming
-Repository names should match the RegEx [a-zA-Z0-9\-]+
+## Projects
+We use human-readable project names, with spaces etc.
+Naming schems: ```HsM <Application> ```
+
+
+## Repositories
+Naming schems: ```HsM <Application> ```

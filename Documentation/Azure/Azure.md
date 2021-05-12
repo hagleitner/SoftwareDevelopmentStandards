@@ -6,67 +6,34 @@ has_children: false
 permalink: /documentation/azure
 ---
 
-# Azure DevOps
+# Azure
 
 ## Naming conventions
+
 We stick to [Microsoft's conventions](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming) if not defined otherwise below.
 
 ### Resource groups naming scheme
+
 ```rg-hsm-<workload/Application>-<environment>```
 
 ### Resources naming scheme
+
 ```<resorucetype>-hsm-<4-letter-abbreviation workload/Application>-<environment>```
 
-|Application / Workload | 4-letter abbreviation 
+|Application / Workload | 4-letter abbreviation
 |-------------| ----------------------|----|
 Hagleitner Business Data Proxy | hbdp
-HsM Catalog Service	| cata
-HsM Client Service | clie
-HsM Data Analysis Service |	daan 
-HsM Data Link Monitoring Service|dlmo 
+HsM Catalog Service| cata
+HsM Client Service| clie
+HsM Data Analysis Service| daan
+HsM Data Link Monitoring Service| dlmo 
 HsM Digital Twin Service|ditw
-HsM Temporary TV Monitor|ttmo 
+HsM Temporary TV Monitor|ttmo
 HsM Inter Service Communication | insc
 
 |Environment | Abbreviation |
 |-------------| ----------------------|
-Development | dev
-Integration	| int
-Staging | stage
-Production | prod
-
-## DNS names
-
-DNS naming scheme
-For all HsM services we use ```<workload-dns-nams>[-<environment>].hsm.digital```
-For all Hagleitner services we use ```<workload-dns-nams>[-<environment>].hagleitner.com```
-For services consisting of multiple tiers we append the tier name to the service name: ```<workload-dns-nams>-<tiername>[-<environment>].hsm.digital```
-Examples
-
-* catalog.hsm.gigital
-* catalog-dev.hsm.digital
-
-### hsm.digital
-|Application / Workload | DNS name
-|-------------|----|
-HsM Catalog Service| catalog.hsm.digital
-HsM Catalog Service Database | catalog-db.hsm.digital
-HsM Client Service| clientservice.hsm.digital
-| | hsm.hygieneportal&#46;com
-| | www.hsm.digital
-HsM Client Service Database| clientservice-db.hsm.digital
-HsM Data Analysis Service | dataanalysis.hsm.digital
-HsM Data Link Monitoring Service| datalinkmonitoring.hsm.digital
-HsM Data Link Monitoring Cache| datalinkmonitoring-cache.hsm.digital
-HsM Device Provisioning Service | deviceprovisioning.hsm.digital
-HsM Digital Twin Service| digitaltwin.hsm.digital
-HsM Digital Twin Service Database| digitaltwin-db.hsm.digital
-HsM Inter Service Communication | interservicecommunication.hsm.digital
-HsM IotHub | iothub.hsm.digital
-HsM Temporary TV Monitor| tv.hsm.digital
-HsM TimeSeries Database | timeseriesdb.hsm.digital
-
-### hagleitner&#46;com
-|Application / Workload | DNS name
-|-------------|----|
-Hagleitner Business Data Proxy | businessdataproxy.hagleitner.com _On-premise but accessed from Azure
+Development| dev
+Integration| int
+Staging| stage
+Production| prod
