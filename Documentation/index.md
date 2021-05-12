@@ -18,9 +18,8 @@ While the official company language is German we use English (US) as default lau
 
 ## General topics
 1. [C#/.NET](CSharp/CSharp.md)
-1. [Version control with Git](Git/Git.md)
-1. [Issue management with Jira](Jira/Jira.md)
-2. [Azure DevOps](AzureDevOps/DevOps.md)
-
-## Product specific topics
-1. [HsM Web Portal Style Guide](HsmWebPortal/HsMWebPortal.md)S
+2. [Version control with Git](Git/Git.md)
+3. [Issue management with Jira](Jira/Jira.md)
+4. [Azure](Azure/Azure.md)
+5. [DNS] (Dns.md)
+6. [Azure DevOps](AzureDevOps/DevOps.md)

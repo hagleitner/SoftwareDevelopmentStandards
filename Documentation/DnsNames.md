@@ -3,50 +3,27 @@ layout: default
 title: Azure
 nav_order: 350
 has_children: false
-permalink: /documentation/azure
+permalink: /documentation/dns
 ---
 
-# Azure DevOps
+# DNS
 
-## Naming conventions
-We stick to [Microsoft's conventions](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming) if not defined otherwise below.
+All HsM related resources get DNS hostnames in the hsm.digital domain.
 
-### Resource groups naming scheme
-```rg-hsm-<workload/Application>-<environment>```
+## DNS naming scheme
 
-### Resources naming scheme
-```<resorucetype>-hsm-<4-letter-abbreviation workload/Application>-<environment>```
-
-|Application / Workload | 4-letter abbreviation 
-|-------------| ----------------------|----|
-Hagleitner Business Data Proxy | hbdp
-HsM Catalog Service	| cata
-HsM Client Service | clie
-HsM Data Analysis Service |	daan 
-HsM Data Link Monitoring Service|dlmo 
-HsM Digital Twin Service|ditw
-HsM Temporary TV Monitor|ttmo 
-HsM Inter Service Communication | insc
-
-|Environment | Abbreviation |
-|-------------| ----------------------|
-Development | dev
-Integration	| int
-Staging | stage
-Production | prod
-
-## DNS names
-
-DNS naming scheme
 For all HsM services we use ```<workload-dns-nams>[-<environment>].hsm.digital```
 For all Hagleitner services we use ```<workload-dns-nams>[-<environment>].hagleitner.com```
 For services consisting of multiple tiers we append the tier name to the service name: ```<workload-dns-nams>-<tiername>[-<environment>].hsm.digital```
+
 Examples
 
 * catalog.hsm.gigital
 * catalog-dev.hsm.digital
+* catalog-db-stage.hsm.digital
 
-### hsm.digital
+## hsm.digital
+
 |Application / Workload | DNS name
 |-------------|----|
 HsM Catalog Service| catalog.hsm.digital
@@ -67,6 +44,7 @@ HsM Temporary TV Monitor| tv.hsm.digital
 HsM TimeSeries Database | timeseriesdb.hsm.digital
 
 ### hagleitner&#46;com
+
 |Application / Workload | DNS name
 |-------------|----|
 Hagleitner Business Data Proxy | businessdataproxy.hagleitner.com _On-premise but accessed from Azure
