@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Azure
+title: DNS
 nav_order: 350
 has_children: false
 permalink: /documentation/dns
