@@ -25,3 +25,13 @@ E.g.
 
 * The GET endpoint https://adventure-works.com/orders will deliver a collection of orders.
 * The GET endpoing https://adventure-works.com/service-version will deliver a single data object, therefore singular is ok here.
+
+## Elements with multiple Ids
+
+If an element is identifiable by multiple Ids, we decide for a primary id. This is then used in endpoints like:
+
+/standard/v1/devices/{primaryId}/datalinks
+
+Additional Ids must be resolved first by the client. For this we provide a search-like endpoint:
+
+/standard/v1/devices?identifierType=componentId?identifier="xyz"
